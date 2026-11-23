@@ -3,122 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ENJIE 协议文档</title>
-<style>
-  :root {
-    color-scheme: light;
-    --brand: #0f6fff;
-    --bg: #f4f6f9;
-    --card: #ffffff;
-    --text: #16181d;
-    --sub: #6b7280;
-    --line: #e6e9ef;
-  }
-  * { box-sizing: border-box }
-  body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 36px 18px 56px }
-
-  header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap }
-  .brand {
-    font-size: 26px; font-weight: 700; letter-spacing: 4px;
-    color: var(--brand);
-  }
-  .tagline { margin: 0; font-size: 13px; color: var(--sub); line-height: 1.6 }
-  .tagline span { color: #9aa1ad }
-
-  .welcome {
-    margin: 20px 0 0; font-size: 14px; line-height: 1.75; color: var(--text);
-    padding: 16px 18px; background: var(--card); border-radius: 14px;
-    border-left: 3px solid var(--brand);
-    box-shadow: 0 1px 2px rgba(22, 24, 29, .05);
-  }
-  .welcome span { display: block; margin-top: 6px; color: var(--sub); font-size: 13px }
-
-  section { margin-top: 28px }
-  h2 {
-    font-size: 14px; font-weight: 600; margin: 0 0 12px; color: var(--text);
-    display: flex; align-items: center; gap: 8px;
-  }
-  h2 .en { font-weight: 400; font-size: 12px; color: #9aa1ad; letter-spacing: .3px }
-
-  ul.docs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px }
-  ul.docs a {
-    position: relative; display: block; padding: 15px 44px 15px 18px;
-    background: var(--card); border-radius: 14px; color: inherit; text-decoration: none;
-    box-shadow: 0 1px 2px rgba(22, 24, 29, .05);
-    transition: transform .12s ease, box-shadow .12s ease;
-  }
-  ul.docs a::after {
-    content: "\2192"; position: absolute; right: 18px; top: 50%;
-    transform: translateY(-50%); color: var(--brand); font-size: 15px;
-  }
-  ul.docs a:hover { box-shadow: 0 3px 10px rgba(22, 24, 29, .09) }
-  ul.docs .t { display: block; font-size: 15px; font-weight: 600; margin-bottom: 3px }
-  ul.docs .d { display: block; font-size: 12.5px; color: var(--sub); line-height: 1.55 }
-
-  .rows { display: grid; gap: 10px }
-  .row {
-    display: flex; align-items: center; gap: 12px; padding: 15px 18px;
-    background: var(--card); border-radius: 14px;
-    box-shadow: 0 1px 2px rgba(22, 24, 29, .05);
-  }
-  .row .grow { flex: 1; min-width: 0 }
-  .row .t { font-size: 14px; font-weight: 600; margin-bottom: 3px }
-  .row .d { font-size: 12.5px; color: var(--sub); line-height: 1.55 }
-  .row b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums }
-  .btn {
-    flex: none; display: inline-block; padding: 9px 16px; border-radius: 999px;
-    background: var(--brand); color: #fff; text-decoration: none;
-    font-size: 13px; font-weight: 600; white-space: nowrap;
-  }
-  .btn.ghost { background: #eef3ff; color: var(--brand); font-weight: 500 }
-
-  footer {
-    margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--line);
-    color: #9aa1ad; font-size: 12px; line-height: 1.9; text-align: center;
-  }
-  footer a { color: var(--brand); text-decoration: none }
-</style>
+<title>ENJIE · 协议与支持</title>
+<link rel="stylesheet" href="./style.css">
+<script>
+  // 首屏前应用语言偏好，避免中英文闪烁
+  (function () {
+    var l = 'zh';
+    try { l = localStorage.getItem('enjie-lang') === 'en' ? 'en' : 'zh'; } catch (e) {}
+    document.documentElement.className = 'lang-' + l;
+  })();
+</script>
 </head>
-<body>
+<body class="lang-zh">
 <main>
-  <header>
-    <div class="brand">ENJIE</div>
-    <p class="tagline">电池储能 BMS 蓝牙监控应用<br><span>Battery Energy Storage BMS Bluetooth Monitoring App</span></p>
-  </header>
+  <div class="top">
+    <a class="brand" href="./index.html">ENJIE</a>
+    <div class="lang">
+      <button type="button" data-set-lang="zh">中文</button>
+      <button type="button" data-set-lang="en">EN</button>
+    </div>
+  </div>
 
-  <p class="welcome">
-    欢迎使用 ENJIE APP。以下为本软件的协议与说明文档，建议在使用前仔细阅读。
-    <span>Welcome to the ENJIE APP. Please read the following documents carefully before use.</span>
+  <p class="tagline">
+    <span class="zh">电池储能 BMS 蓝牙监控应用</span>
+    <span class="en">Battery Energy Storage BMS Bluetooth Monitoring App</span>
+  </p>
+
+  <p class="lead">
+    <span class="zh">欢迎使用 ENJIE APP。以下为本软件的协议与支持文档，建议在使用前仔细阅读。</span>
+    <span class="en">Welcome to the ENJIE APP. Please read the documents below before using the app.</span>
   </p>
 
   <section>
-    <h2>协议文档 <span class="en">Documents</span></h2>
-    <ul class="docs">
+    <h2><span class="zh">协议文档</span><span class="en">Documents</span></h2>
+    <ul class="cards">
       <li>
-        <a href="./privacy.html">
+        <a class="zh" href="./privacy.html">
           <span class="t">隐私协议</span>
           <span class="d">数据收集、使用与保护说明</span>
         </a>
-      </li>
-      <li>
-        <a href="./agreement.html">
-          <span class="t">用户协议</span>
-          <span class="d">软件使用条款与用户权利义务</span>
-        </a>
-      </li>
-      <li>
-        <a href="./privacy-en.html">
+        <a class="en" href="./privacy-en.html">
           <span class="t">Privacy Policy</span>
           <span class="d">Data collection, use and protection</span>
         </a>
       </li>
       <li>
-        <a href="./agreement-en.html">
+        <a class="zh" href="./agreement.html">
+          <span class="t">用户协议</span>
+          <span class="d">软件使用条款与用户权利义务</span>
+        </a>
+        <a class="en" href="./agreement-en.html">
           <span class="t">User Agreement</span>
           <span class="d">Terms of use and your rights and obligations</span>
         </a>
@@ -127,39 +61,70 @@
   </section>
 
   <section>
-    <h2>版本信息 <span class="en">Version</span></h2>
+    <h2><span class="zh">技术支持</span><span class="en">Support</span></h2>
+    <ul class="cards">
+      <li>
+        <a href="./support.html">
+          <span class="t zh">常见问题</span><span class="t en">FAQ</span>
+          <span class="d zh">连接、权限、参数、升级等常见问题解答</span>
+          <span class="d en">Connection, permissions, settings and firmware upgrade</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:wangjin@energyborn.com">
+          <span class="t zh">联系我们</span><span class="t en">Contact us</span>
+          <span class="d zh">wangjin@energyborn.com</span>
+          <span class="d en">wangjin@energyborn.com</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="zh">版本信息</span><span class="en">Version</span></h2>
     <div class="rows">
       <div class="row">
         <div class="grow">
-          <div class="t">Android</div>
-          <div class="d">最新版本 <b id="android-version">请见下载页</b></div>
+          <div class="rt">Android</div>
+          <div class="rd">
+            <span class="zh">最新版本 <b id="android-version">请见下载页</b></span>
+            <span class="en">Latest <b id="android-version-en">See download page</b></span>
+          </div>
         </div>
-        <a class="btn" href="https://www.pgyer.com/enjie-android" target="_blank" rel="noopener">蒲公英下载</a>
+        <a class="btn" href="https://www.pgyer.com/enjie-android" target="_blank" rel="noopener">
+          <span class="zh">蒲公英下载</span><span class="en">Download</span>
+        </a>
       </div>
       <div class="row">
         <div class="grow">
-          <div class="t">iOS</div>
-          <div class="d">即将上线 · Coming soon</div>
+          <div class="rt">iOS</div>
+          <div class="rd">
+            <span class="zh">即将上线</span><span class="en">Coming soon</span>
+          </div>
         </div>
-        <span class="btn ghost">敬请期待</span>
+        <span class="btn ghost"><span class="zh">敬请期待</span><span class="en">Stay tuned</span></span>
       </div>
     </div>
   </section>
 
   <footer>
-    上海恩阶电子科技有限公司<br>
-    Shanghai Enjie Electronic Technology Co., Ltd.<br>
+    <span class="zh">上海恩阶电子科技有限公司</span>
+    <span class="en">Shanghai Enjie Electronic Technology Co., Ltd.</span><br>
     <a href="mailto:wangjin@energyborn.com">wangjin@energyborn.com</a>
   </footer>
 </main>
-
+<script src="./site.js"></script>
 <script>
   // 版本号从 version.json 读取，避免两处维护
   fetch('./version.json')
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (json) {
       var v = json && json.android && json.android.latest_version;
-      if (v) document.getElementById('android-version').textContent = 'v' + v;
+      if (!v) return;
+      var zh = document.getElementById('android-version');
+      var en = document.getElementById('android-version-en');
+      if (zh) zh.textContent = 'v' + v;
+      if (en) en.textContent = 'v' + v;
     })
     .catch(function () { /* 读取失败保留兜底文案 */ });
 </script>

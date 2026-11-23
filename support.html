@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ENJIE · 技术支持</title>
+<link rel="stylesheet" href="./style.css">
+<script>
+  // 首屏前应用语言偏好，避免中英文闪烁
+  (function () {
+    var l = 'zh';
+    try { l = localStorage.getItem('enjie-lang') === 'en' ? 'en' : 'zh'; } catch (e) {}
+    document.documentElement.className = 'lang-' + l;
+  })();
+</script>
+</head>
+<body class="lang-zh">
+<main>
+  <div class="doc-top">
+    <a href="./index.html"><span class="zh">← 返回</span><span class="en">← Back</span></a>
+    <div class="lang">
+      <button type="button" data-set-lang="zh">中文</button>
+      <button type="button" data-set-lang="en">EN</button>
+    </div>
+  </div>
+
+  <h1><span class="zh">技术支持</span><span class="en">Support</span></h1>
+  <p class="meta">
+    <span class="zh">常见问题与解答 · 未找到答案可邮件联系我们</span>
+    <span class="en">Frequently asked questions · Email us if you need further help</span>
+  </p>
+
+  <div class="faq">
+
+    <details>
+      <summary><span class="zh">搜索不到设备怎么办？</span><span class="en">The device cannot be found</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>1. 确认电池已上电、BMS 指示灯正常工作；</p>
+          <p>2. 手机蓝牙已开启，并与设备保持 3 米以内、无金属遮挡；</p>
+          <p>3. 关闭再重新打开手机蓝牙后重新搜索；</p>
+          <p>4. 若设备已被其他手机连接，请先在那边断开；</p>
+          <p>5. Android 11 及以下系统需要允许定位权限才能扫描到蓝牙设备。</p>
+        </div>
+        <div class="en">
+          <p>1. Make sure the battery is powered on and the BMS indicator is working;</p>
+          <p>2. Turn on phone Bluetooth and stay within 3 meters without metal obstructions;</p>
+          <p>3. Toggle Bluetooth off and on, then scan again;</p>
+          <p>4. If another phone is already connected, disconnect it first;</p>
+          <p>5. Android 11 and below requires location permission to scan for Bluetooth devices.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">为什么需要蓝牙和定位权限？</span><span class="en">Why Bluetooth and location permissions</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>蓝牙权限用于搜索并连接储能设备；Android 11 及以下系统要求开启定位权限才能扫描蓝牙设备，这是系统限制。</p>
+          <p>本 APP 不读取、不存储、不上传任何位置信息。</p>
+        </div>
+        <div class="en">
+          <p>Bluetooth permission is used to scan and connect to the energy storage device. Android 11 and below requires location permission for Bluetooth scanning — this is a system requirement.</p>
+          <p>This app never reads, stores, or uploads any location data.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">数据会上传到云端吗？</span><span class="en">Is my data uploaded to the cloud</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>不会。本 APP 无需注册登录，所有设备数据均在本机处理与保存，不做云端同步、不做信息推送。</p>
+          <p>仅在您手动点击「检查更新」时会联网读取版本信息。</p>
+        </div>
+        <div class="en">
+          <p>No. The app requires no registration or login. All device data is processed and stored locally, with no cloud sync and no push notifications.</p>
+          <p>The app only connects to the network when you tap "Check for Updates".</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">设备频繁断开连接</span><span class="en">Connection keeps dropping</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>1. 保持手机与设备距离，避免金属遮挡或放在封闭柜体内；</p>
+          <p>2. 关闭手机的省电限制或后台清理，允许 APP 在后台保持连接；</p>
+          <p>3. 重新进入设备详情页会自动尝试重连，仍失败可重启手机蓝牙。</p>
+        </div>
+        <div class="en">
+          <p>1. Keep the phone close to the device and avoid metal shielding or enclosed cabinets;</p>
+          <p>2. Disable battery restrictions or background cleanup for this app;</p>
+          <p>3. Re-entering the device detail page reconnects automatically; if not, restart phone Bluetooth.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">修改参数为什么要输入密码？</span><span class="en">Why is a password required</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>参数配置、功能开关、设备校准会直接影响电池的安全与寿命，因此保存前需要输入验证密码以防误操作。</p>
+          <p>密码请以随机说明书或供货方提供的为准；如有疑问可邮件联系我们。</p>
+        </div>
+        <div class="en">
+          <p>Parameter settings, function switches, and device calibration directly affect battery safety and lifespan, so a verification password is required before saving.</p>
+          <p>Please refer to the manual or your supplier for the password, or email us.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">电量/SOC 显示与实际电量不一致</span><span class="en">SOC does not match the actual charge</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>SOC 等数据由电池 BMS 上报，APP 仅做展示与记录。</p>
+          <p>若长期偏差较大，可先让电池充满并静置一段时间，或按厂家指引在「设备校准」中执行校准。</p>
+        </div>
+        <div class="en">
+          <p>SOC and other values are reported by the battery BMS; the app only displays them.</p>
+          <p>If the deviation persists, fully charge the battery and let it rest, or run calibration under "Device Calibration" as instructed by the manufacturer.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">固件升级失败或中断</span><span class="en">Firmware upgrade failed or interrupted</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>1. 升级过程请保持手机靠近设备、不要切到后台或锁屏；</p>
+          <p>2. 升级中断后设备通常会保留原固件，可重新连接并再次升级；</p>
+          <p>3. 若升级后设备无法连接，请停止操作并尽快邮件联系我们。</p>
+        </div>
+        <div class="en">
+          <p>1. Keep the phone close to the device during the upgrade and avoid switching apps or locking the screen;</p>
+          <p>2. If interrupted, the device usually keeps the previous firmware — reconnect and upgrade again;</p>
+          <p>3. If the device cannot connect after an upgrade, stop operating and email us.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">如何管理已保存的设备？</span><span class="en">Managing saved devices</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>在首页长按设备卡片可以删除该设备；点击设备卡片即可连接并查看数据。</p>
+          <p>建议同一时间只连接一台设备，避免多台设备同时通讯造成数据混乱。</p>
+        </div>
+        <div class="en">
+          <p>Long-press a device card on the home screen to remove it; tap a card to connect and view data.</p>
+          <p>We recommend connecting one device at a time to avoid communication conflicts.</p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">在哪里检查新版本？</span><span class="en">Where to check for updates</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>打开 APP：「我的」→「检查更新」，会自动检测最新版本并提示。</p>
+          <p>Android 版也可直接访问下载页：<a href="https://www.pgyer.com/enjie-android" target="_blank" rel="noopener">https://www.pgyer.com/enjie-android</a></p>
+        </div>
+        <div class="en">
+          <p>In the app: "My" → "Check for Updates". The app will detect the latest version automatically.</p>
+          <p>Android users can also visit: <a href="https://www.pgyer.com/enjie-android" target="_blank" rel="noopener">https://www.pgyer.com/enjie-android</a></p>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">支持 iOS 吗？</span><span class="en">Is iOS supported</span></summary>
+      <div class="a">
+        <div class="zh"><p>iOS 版本正在准备中，上线后会在此页面公布。</p></div>
+        <div class="en"><p>The iOS version is in preparation and will be announced on this page.</p></div>
+      </div>
+    </details>
+
+    <details>
+      <summary><span class="zh">还有其他问题</span><span class="en">Still need help</span></summary>
+      <div class="a">
+        <div class="zh">
+          <p>邮箱：<a href="mailto:wangjin@energyborn.com">wangjin@energyborn.com</a></p>
+          <p>发信时请附上手机型号、系统版本、APP 版本号与设备型号，便于我们定位问题。</p>
+        </div>
+        <div class="en">
+          <p>Email: <a href="mailto:wangjin@energyborn.com">wangjin@energyborn.com</a></p>
+          <p>Please include your phone model, OS version, app version and device model.</p>
+        </div>
+      </div>
+    </details>
+
+  </div>
+
+  <footer>
+    <span class="zh">上海恩阶电子科技有限公司</span>
+    <span class="en">Shanghai Enjie Electronic Technology Co., Ltd.</span><br>
+    <a href="mailto:wangjin@energyborn.com">wangjin@energyborn.com</a>
+  </footer>
+</main>
+<script src="./site.js"></script>
+</body>
+</html>
