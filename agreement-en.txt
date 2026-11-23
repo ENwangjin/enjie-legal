@@ -1,0 +1,107 @@
+ENJIE User Agreement
+
+I. Special Notice
+
+(I) Before using the ENJIE software service ("the Service"), please read this ENJIE User Agreement ("the Agreement") in full, fully understand all terms and conditions, and independently choose whether to accept and use the Service.
+
+(II) This Agreement is entered into by Shanghai Enjie Electronic Technology Co., Ltd. ("we", "us", or "our") and the software user, to define all rights and obligations between the parties in the use of the ENJIE software service. This Agreement may be updated from time to time. Updated content will take effect immediately upon publication within the software without separate notice. You may view the latest version within the APP. If you do not accept the updated terms, please immediately stop using the software; your continued use of the Service constitutes acceptance of and agreement to comply with all terms of the latest version.
+
+(III) This APP has no account registration, phone number binding, or login verification functionality. Users can fully use all software functions without submitting any registration information. All clauses in this Agreement relating to accounts, registration, login, passwords, and account suspension do not apply to this product.
+
+(IV) This APP operates primarily as a local offline tool. It only accesses the internet when the user manually triggers a version update check, solely for verifying the latest software version and downloading update packages. Apart from this, the software will not actively connect to the internet, connect in the background, upload/download user data, perform cloud synchronization, or push network messages. All user business data and operational data are stored only locally on the user's device.
+
+II. Access Conditions
+
+(I) All users can directly open ENJIE and use all functions without registration, login, or filling in any personal information. We will not actively collect or request users' personal identification information.
+
+(II) If a user engages in illegal activities, maliciously tampers with the software program, tampers with local device data, performs bulk malicious operations, or cracks/reverse-engineers the software, we have the right to restrict the device's usage permissions or terminate device access service without prior notice.
+
+(III) During software operation, basic device identification information is read locally on the device solely to ensure stable local operation and risk prevention. Except for manual version updates, all device information and user data are processed locally only and will not be transmitted or uploaded over the internet.
+
+III. Device and Usage Safety
+
+(I) This product has no account system. There are no scenarios or liability provisions relating to account registration, login, password management, account transfer, or account leakage.
+
+(II) Users bear full responsibility for software installation, operation, and usage on their devices. All consequences arising from device loss, unauthorized operation by others, user error, or device failure shall be borne by the user.
+
+(III) Users shall not use this software for illegal purposes or provide it to third parties for unauthorized operations. All legal liability and losses arising from third-party unauthorized use of this software due to lending or transferring devices shall be borne by the device holder.
+
+(IV) All business data of this software is stored locally on the user's device. We have no cloud storage or data backup capability. Users must perform local data backup and device security protection themselves.
+
+IV. User Representations and Warranties
+
+(I) Users represent that they are natural persons with full civil capacity or legal entities with the ability to independently use this software and bear corresponding legal liability. Minors must use this Service with the knowledge, accompaniment, and permission of their legal guardians.
+
+(II) In using ENJIE, all local files, data, and content imported, edited, generated, exported, or shared by users must not violate national laws, regulations, or public order and good customs.
+
+(III) Users shall not use this software to create, import, store, or disseminate any content that interferes with the normal operation of the software or infringes upon the legitimate rights and interests of third parties.
+
+(IV) Users are strictly prohibited from modifying this software, bypassing functional restrictions, or capturing local data through plugins, cracking tools, reverse engineering, scripts, or program tampering.
+
+V. Service Content
+
+This software is a local offline tool. All functions run locally on the user's device.
+
+VI. Termination and Restriction of Service
+
+(I) We reserve the right to unilaterally restrict or terminate the software usage permissions of a device under any of the following circumstances:
+
+1. The user violates any term of this Agreement or uses the software for illegal or irregular activities;
+2. The user operates this software through abnormal means such as cracking, tampering, or third-party tools;
+3. The user stores, imports, or disseminates false, illegal, or infringing data and files locally;
+4. The user does not accept or refuses to comply with the updated User Agreement;
+5. Other circumstances where we determine that service termination is necessary based on security and compliance considerations.
+
+(II) After service is restricted or terminated, we have no cloud data retention. We will not save, restore, or migrate any of the user's local data. All data remains only on the user's local device, and we assume no obligation for data maintenance.
+
+(III) After service termination, we retain the right to pursue all legal liability for the user's illegal or irregular activities during the use of the software.
+
+VII. Service Changes and Interruptions
+
+(I) We reserve the right to add, adjust, or optimize local software functions at any time based on product iteration needs, without prior notice to users and without any compensation liability to users or third parties.
+
+(II) We shall not be liable for any loss or compensation arising from service interruption or abnormality caused by software version upgrades, program fixes, or local operation failures.
+
+VIII. Modification of Service Terms
+
+(I) We reserve the right to revise or update this User Agreement at any time. Updated content will be published locally within the software and will take effect immediately upon publication.
+
+(II) If users do not accept the updated terms, they may immediately stop using the software.
+
+(III) After the Agreement is updated, the user's continued opening and use of the software shall be deemed as voluntary acceptance of all terms of the new version.
+
+IX. Disclaimer and Compensation Statement
+
+(I) Local data loss, device damage, and economic losses resulting from the user's failure to follow software operation instructions, operational errors, or device abnormalities shall be borne solely by the user, and we shall not be liable.
+
+(II) Users expressly acknowledge and agree that this software is primarily for local offline use, with limited internet connectivity only for manual version updates. Users voluntarily assume all risks associated with software use. All consequences arising from local operations, data storage, and device adaptation shall be borne by the user.
+
+(III) If the user's improper use of this software causes personal injury, property damage, or reputational harm to us, other users, or any third party, the user shall independently bear all damages, including but not limited to compensation, litigation costs, attorney fees, and all related enforcement costs.
+
+X. Privacy Statement
+
+(I) Scope of Information Collection
+
+This APP has no registration, login, or information entry functions. It does not collect users' personal privacy information such as name, phone number, ID number, or address. The software only reads basic device identifiers locally for operational adaptation and risk prevention. It only connects to the internet to transmit version verification data when the user manually checks for updates, and never uploads user business data, operation records, or personal privacy information.
+
+(II) Rules for Information Use
+
+1. All device information is processed and used only locally on the user's device. We will not sell, rent, or share any user device information or local data with third parties, and it will not be used for any commercial marketing purposes;
+2. Except for manual version updates triggered by the user, the software has no internet connection or data transmission behavior. There are no scenarios of background data theft or leakage;
+3. Device identification information is only used to ensure stable local operation of the software and compliance risk control, and for no other purpose.
+
+(III) Rules for Information Disclosure
+
+This software has no automatic data disclosure or background data push. Data may only be disclosed externally when the user voluntarily exports or provides local data, or when required by law, regulatory authorities, or judicial authorities.
+
+XI. Miscellaneous
+
+(I) Users have fully understood the terms of liability exemption, risk assumption, and rights restrictions in this Agreement and voluntarily evaluate the risks of use. Minors must be accompanied and supervised by their legal guardians at all times.
+
+(II) The formation, validity, interpretation, and dispute resolution of this Agreement shall be governed by the laws of the People's Republic of China. Disputes shall be resolved through friendly negotiation first; if negotiation fails, either party may submit the dispute to the people's court with jurisdiction at the place where Shanghai Enjie Electronic Technology Co., Ltd. is domiciled.
+
+(III) If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect and shall continue to be binding on both parties.
+
+(IV) The right of final interpretation of this Agreement belongs to Shanghai Enjie Electronic Technology Co., Ltd. We reserve the right to revise and supplement the content of this Agreement.
+
+(V) This Agreement shall take effect and be implemented from November 25, 2026.
