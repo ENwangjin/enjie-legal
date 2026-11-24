@@ -8,7 +8,7 @@ I. Special Notice
 
 (III) This APP has no account registration, phone number binding, or login verification functionality. Users can fully use all software functions without submitting any registration information. All clauses in this Agreement relating to accounts, registration, login, passwords, and account suspension do not apply to this product.
 
-(IV) This APP operates primarily as a local offline tool. It only accesses the internet when the user manually triggers a version update check, solely for verifying the latest software version and downloading update packages. Apart from this, the software will not actively connect to the internet, connect in the background, upload/download user data, perform cloud synchronization, or push network messages. All user business data and operational data are stored only locally on the user's device.
+(IV) This APP operates primarily as a local offline tool. It only accesses the internet when the user manually triggers a version update check, opens Technical Support, or views the Privacy Policy or User Agreement, solely for verifying the latest software version, downloading update packages, viewing the FAQ, and retrieving the legal documents. Apart from this, the software will not actively connect to the internet, connect in the background, upload/download user data, perform cloud synchronization, or push network messages. All user business data and operational data are stored only locally on the user's device.
 
 II. Access Conditions
 
@@ -16,7 +16,7 @@ II. Access Conditions
 
 (II) If a user engages in illegal activities, maliciously tampers with the software program, tampers with local device data, performs bulk malicious operations, or cracks/reverse-engineers the software, we have the right to restrict the device's usage permissions or terminate device access service without prior notice.
 
-(III) During software operation, basic device identification information is read locally on the device solely to ensure stable local operation and risk prevention. Except for manual version updates, all device information and user data are processed locally only and will not be transmitted or uploaded over the internet.
+(III) During software operation, basic device identification information is read locally on the device solely to ensure stable local operation and risk prevention. Except for manual version updates and for viewing Technical Support or the legal documents, all device information and user data are processed locally only and will not be transmitted or uploaded over the internet.
 
 III. Device and Usage Safety
 
@@ -32,15 +32,45 @@ IV. User Representations and Warranties
 
 (I) Users represent that they are natural persons with full civil capacity or legal entities with the ability to independently use this software and bear corresponding legal liability. Minors must use this Service with the knowledge, accompaniment, and permission of their legal guardians.
 
-(II) In using ENJIE, all local files, data, and content imported, edited, generated, exported, or shared by users must not violate national laws, regulations, or public order and good customs.
+(II) In using ENJIE, all local files, data, and content imported, edited, generated, exported, or shared by users must not violate national laws and regulations or public order and good customs, and must not involve any of the following circumstances:
 
-(III) Users shall not use this software to create, import, store, or disseminate any content that interferes with the normal operation of the software or infringes upon the legitimate rights and interests of third parties.
+1. Violating the basic principles established by the Constitution;
 
-(IV) Users are strictly prohibited from modifying this software, bypassing functional restrictions, or capturing local data through plugins, cracking tools, reverse engineering, scripts, or program tampering.
+2. Endangering national security, divulging state secrets, subverting state power, or undermining national unity;
+
+3. Harming national honor and interests;
+
+4. Inciting ethnic hatred or ethnic discrimination, or undermining ethnic unity;
+
+5. Undermining the state's religious policies, or promoting cults and feudal superstition;
+
+6. Spreading rumors, disturbing social order, or undermining social stability;
+
+7. Disseminating obscenity, pornography, gambling, violence, homicide, terror, or inciting crime;
+
+8. Insulting or defaming others, or infringing upon the lawful rights and interests of others;
+
+9. Containing any other content prohibited by laws and administrative regulations.
+
+(III) Users shall not use this software to create, import, store, or disseminate any content that interferes with the normal operation of the software or infringes upon the legitimate rights and interests of third parties, including but not limited to:
+
+1. Content containing pornography or sexual suggestion;
+
+2. Content that abuses, threatens, or intimidates others;
+
+3. Harassment messages, spam advertising, malicious inducement, or fraudulent information;
+
+4. Content that illegally obtains or discloses the privacy and personal information of others;
+
+5. Content that infringes upon the lawful rights and interests of others, such as reputation, portrait, intellectual property, or trade secrets;
+
+6. Other content that interferes with the local operation of the software or harms the legitimate rights and interests of third parties.
+
+(IV) Users are strictly prohibited from modifying this software, bypassing functional restrictions, or capturing local data through plugins, cracking tools, reverse engineering, scripts, or program tampering. Once discovered, we have the right to permanently restrict the use of this software on the corresponding device and reserve the right to pursue the user's legal liability in accordance with the law.
 
 V. Service Content
 
-This software is a local offline tool. All functions run locally on the user's device.
+This software is a local offline tool. All functions run locally on the user's device. Within the scope of local permissions, we have the right to review, block, and remove any locally generated or imported content and data that is illegal, non-compliant, contrary to public order and good customs, or that maliciously interferes with the operation of the software. This software provides no network push or cloud message notification functions; internet access is available only when the user manually triggers a version update check, technical support, or legal document viewing. All agreement updates, feature descriptions, and version notices are published on local pages within the software.
 
 VI. Termination and Restriction of Service
 
@@ -74,7 +104,7 @@ IX. Disclaimer and Compensation Statement
 
 (I) Local data loss, device damage, and economic losses resulting from the user's failure to follow software operation instructions, operational errors, or device abnormalities shall be borne solely by the user, and we shall not be liable.
 
-(II) Users expressly acknowledge and agree that this software is primarily for local offline use, with limited internet connectivity only for manual version updates. Users voluntarily assume all risks associated with software use. All consequences arising from local operations, data storage, and device adaptation shall be borne by the user.
+(II) Users expressly acknowledge and agree that this software is primarily for local offline use, with limited internet connectivity only for manual version updates and for viewing Technical Support or the legal documents. Users voluntarily assume all risks associated with software use. All consequences arising from local operations, data storage, and device adaptation shall be borne by the user.
 
 (III) If the user's improper use of this software causes personal injury, property damage, or reputational harm to us, other users, or any third party, the user shall independently bear all damages, including but not limited to compensation, litigation costs, attorney fees, and all related enforcement costs.
 
@@ -82,12 +112,12 @@ X. Privacy Statement
 
 (I) Scope of Information Collection
 
-This APP has no registration, login, or information entry functions. It does not collect users' personal privacy information such as name, phone number, ID number, or address. The software only reads basic device identifiers locally for operational adaptation and risk prevention. It only connects to the internet to transmit version verification data when the user manually checks for updates, and never uploads user business data, operation records, or personal privacy information.
+This APP has no registration, login, or information entry functions. It does not collect users' personal privacy information such as name, phone number, ID number, or address. The software only reads basic device identifiers locally for operational adaptation and risk prevention. It only connects to the internet when the user manually checks for updates or opens Technical Support or the legal pages; for update checks it transmits only version verification data, and it never uploads user business data, operation records, or personal privacy information.
 
 (II) Rules for Information Use
 
 1. All device information is processed and used only locally on the user's device. We will not sell, rent, or share any user device information or local data with third parties, and it will not be used for any commercial marketing purposes;
-2. Except for manual version updates triggered by the user, the software has no internet connection or data transmission behavior. There are no scenarios of background data theft or leakage;
+2. Except for manual version updates triggered by the user and for viewing Technical Support or the legal pages, the software has no internet connection or data transmission behavior. There are no scenarios of background data theft or leakage;
 3. Device identification information is only used to ensure stable local operation of the software and compliance risk control, and for no other purpose.
 
 (III) Rules for Information Disclosure
